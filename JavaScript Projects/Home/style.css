@@ -1,0 +1,67 @@
+html{
+    margin: 10px 10px 0 10px;
+    background-color: #212121;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+}
+#namelogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    width: 3.5vw;
+    aspect-ratio: 1/2;
+}
+.name{
+    text-wrap: nowrap;
+    font-family:'Times New Roman';
+    font-size: 1.7vw;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 10%;
+    
+}
+#name2{
+    text-wrap: nowrap;
+    font-size: 0.9vw;
+}
+#navbar{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    align-items:end;
+    padding-bottom: 2%;
+}
+.nav{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 0.9vw;
+    font-weight: 400;
+    padding: 0 0 5px 0;
+    transition: border 2s ease-in-out 0.1s;
+    border-bottom: 0px solid white;
+}
+.nav:hover{
+    border-bottom: 1px solid white;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#home{
+    height: 100%;
+}
+#profiles{
+    height: 100%;
+}

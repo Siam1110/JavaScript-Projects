@@ -1,0 +1,56 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+body{
+    background-color: #212121;
+    color: white;
+}
+.header{
+    height: 20vh;
+    width: 100vw;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+}
+.button{
+    height: 90px;
+    width: 90px;
+    color: white;
+    
+}
+#black{
+    background-color: #000;
+}
+#khaki{
+    background-color: #BEB7A4;
+}
+#orange{
+    background-color: #FF7F11;
+}
+#coquelicot{
+    background-color: #FF3F00;
+}
+.reset-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#reset{
+    background-color: transparent;
+}
+.detail{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    height: 20vh;
+}
